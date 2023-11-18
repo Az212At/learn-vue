@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div class="home-page">HomePage</div>
+  <div class="home-page">HomePage123</div>
 </template>
 
 <style lang="scss" scoped>
