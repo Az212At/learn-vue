@@ -1,11 +1,9 @@
 <script>
 import { usePostsStore } from "@/stores/posts.store";
 import { mapState } from "pinia";
-import MainPost from "@/components/MainPost.vue";
 
 export default {
   name: "AboutPage",
-  components: { MainPost },
 
   data() {
     const postsStore = usePostsStore();
@@ -27,9 +25,7 @@ export default {
 </script>
 
 <template>
-  <div class="about-page">
-    <MainPost v-for="post in posts" :key="post.id" :post="post" />
-  </div>
+  <div class="about-page">AboutPage</div>
 </template>
 
 <style lang="scss" scoped>
